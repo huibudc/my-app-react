@@ -1,0 +1,41 @@
+学习管理
+    1 package.json 手脚架工具
+     public/  静态目录
+    
+    2 import (Es6)
+        import React, { Component } from 'react';  -- import react and its Component
+            {Component} ==> React.Component
+        import logo from './logo.svg'; -- import img resource path
+        import './App.css';  -- import css resource
+        import ** command should be before other command in a js file
+    3 class and extend
+        Es6 class and extend method
+        class Animal{
+            constructor(){
+                this.type = 'animal';
+            }
+        }
+
+        class Human extends Animal{
+            
+        }
+
+    4 render
+        only triggered when state changed
+    5 export
+        var add = function(a,b){
+            return a + b;
+        }
+        export default add;
+    6 JSX
+        js include html ==> JSX, not standard javascript, in react will be complied to javascript.
+        html tag, jsx       , reason
+        for     , HtmlFor   , for in javascript is a key word
+        class   , className , class in javascript is a key word
+        style   ,need js Obj
+
+        {}, means execute command in html file
+
+        comment : 
+
+        jsx must have one root tag
